@@ -1,0 +1,630 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dream & Flight</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+-->
+
+<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="images/despegue.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<!-- CS Select -->
+	<link rel="stylesheet" href="css/cs-select.css">
+	<link rel="stylesheet" href="css/cs-skin-border.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+			<div id="fh5co-page">
+				<header id="fh5co-header-section" class="sticky-banner">
+					<div class="container">
+						<div class="nav-header">
+							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+							<h1 id="fh5co-logo"><a href="index.html"><i class="icon-airplane"></i>Dream & Flight</a></h1>
+							
+							<!-- START #fh5co-menu-wrap -->
+							
+							<nav id="fh5co-menu-wrap" role="navigation"></nav>
+						</div>
+					</div>
+				</header>
+
+				<!-- end:header-top -->
+	
+				<div class="fh5co-hero">
+					<div class="fh5co-overlay"></div>
+					<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
+						<div class="desc">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-5 col-md-5">
+										<div class="tabulation animate-box">
+
+											<!-- Nav tabs -->
+
+											<ul class="nav nav-tabs" role="tablist">
+												<li role="presentation" class="active">
+													<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Vuelos</a>
+												</li>
+												<li role="presentation">
+													<a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hoteles</a>
+												</li>
+												<li role="presentation">
+													<a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Transporte</a>
+												</li>
+											</ul>
+											
+												<!-- Tab panes -->
+
+											<div class="tab-content">
+												<div role="tabpanel" class="tab-pane active" id="flights">
+													<div class="row">
+														<div class="col-xxs-12 col-xs-6 mt">
+															<div class="input-field">
+																<label for="from">Origen:</label>
+																<input type="text" class="form-control" id="from-place" placeholder="Ciudad de origen"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<div class="input-field">
+																<label for="from">Destino:</label>
+																<input type="text" class="form-control" id="to-place" placeholder="Ciudad de destino"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt alternate">
+															<div class="input-field">
+																<label for="date-start">Ida:</label>
+																<input type="text" class="form-control" id="date-start" placeholder="dd/mm/aaaa"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt alternate">
+															<div class="input-field">
+																<label for="date-end">Vuelta:</label>
+																<input type="text" class="form-control" id="date-end" placeholder="dd/mm/aaaa"/>
+															</div>
+														</div>
+														<div class="col-sm-12 mt">
+															<section>
+																<label for="class">Clase:</label>
+																<select class="cs-select cs-skin-border">
+																	<option value="" disabled selected>Turista</option>
+																	<option value="economy">Turista</option>
+																	<option value="first">Primera</option>
+																	<option value="business">Ejecutiva</option>
+																</select>
+															</section>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<section>
+																<label for="class">Adultos:</label>
+																<select class="cs-select cs-skin-border">
+																	<option value="" disabled selected>1</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																</select>
+															</section>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<section>
+																<label for="class">Niños:</label>
+																<select class="cs-select cs-skin-border">
+																	<option value="" disabled selected>0</option>
+																	<option value="0">0</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																</select>
+															</section>
+														</div>
+														<div class="col-xs-12">
+															<a href="book.html"><input type="submit" class="btn btn-primary btn-block" value="Buscar vuelos"></a>
+														</div>
+													</div>
+												</div>
+
+												<div role="tabpanel" class="tab-pane" id="hotels">
+													<div class="row">
+														<div class="col-xxs-12 col-xs-6 mt">
+															<div class="input-field">
+																<label for="from">Origen:</label>
+																<input type="text" class="form-control" id="from-place" placeholder="Ciudad de origen"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<div class="input-field">
+																<label for="from">Destino:</label>
+																<input type="text" class="form-control" id="to-place" placeholder="Ciudad de destino"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt alternate">
+															<div class="input-field">
+																<label for="date-start">Fecha de llegada:</label>
+																<input type="text" class="form-control" id="date-start" placeholder="dd/mm/aaaa"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt alternate">
+															<div class="input-field">
+																<label for="date-end">Fecha de salida:</label>
+																<input type="text" class="form-control" id="date-end" placeholder="dd/mm/aaaa"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<section>
+																<label for="class">Habitaciones:</label>
+																<select class="cs-select cs-skin-border">
+																	<option value="" disabled selected>1</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																</select>
+															</section>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<section>
+																<label for="class">Camas:</label>
+																<select class="cs-select cs-skin-border">
+																	<option value="" disabled selected>Sencilla</option>
+																	<option value="sencilla">Sencilla</option>
+																	<option value="doble">Doble</option>
+																</select>
+															</section>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<section>
+																<label for="class">Adultos:</label>
+																<select class="cs-select cs-skin-border">
+																	<option value="" disabled selected>1</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																</select>
+															</section>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<section>
+																<label for="class">Niños:</label>
+																<select class="cs-select cs-skin-border">
+																	<option value="" disabled selected>0</option>
+																	<option value="0">0</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																</select>
+															</section>
+														</div>
+														<div class="col-xs-12">
+															<a href="book.html"><input type="submit" class="btn btn-primary btn-block" value="Buscar hotel"></a>
+														</div>
+													</div>
+												</div>
+
+												<div role="tabpanel" class="tab-pane" id="packages">
+													<div class="row">
+														<div class="col-xxs-12 col-xs-6 mt">
+															<div class="input-field">
+																<label for="from">Origen:</label>
+																<input type="text" class="form-control" id="from-place" placeholder="Ciudad de origen"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt">
+															<div class="input-field">
+																<label for="from">Destino:</label>
+																<input type="text" class="form-control" id="to-place" placeholder="Ciudad de destino"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt alternate">
+															<div class="input-field">
+																<label for="date-start">Fecha de llegada:</label>
+																<input type="text" class="form-control" id="date-start" placeholder="dd/mm/aaaa"/>
+															</div>
+														</div>
+														<div class="col-xxs-12 col-xs-6 mt alternate">
+															<div class="input-field">
+																<label for="date-end">Fecha de salida:</label>
+																<input type="text" class="form-control" id="date-end" placeholder="dd/mm/aaaa"/>
+															</div>
+														</div>
+														<div class="col-sm-12 mt">
+															<section>
+																<label for="class">Opciones:</label>
+																<select class="cs-select cs-skin-border">
+																	<option value="" disabled selected>Seleccione opción</option>
+																	<option value="car">Auto</option>
+																	<option value="bike">Motocicleta</option>
+																	<option value="bicycle">Bicicleta</option>
+																	<option value="train">Tren</option>
+																	<option value="cruise">Crucero</option>
+																</select>
+															</section>
+														</div>
+														<div class="col-xs-12">
+															<a href="book.html"><input type="submit" class="btn btn-primary btn-block" value="Buscar transporte"></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="desc2 animate-box">
+										<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
+											<h2>Dream & Flight</h2><br>
+											<h3>¡Hacemos tus sueños realidad!</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="fh5co-features">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 animate-box">
+								<div class="feature-left">
+									<span class="icon">
+										<img src="images/nature.png" alt="nature">
+									</span>
+									<div class="feature-copy">
+										<h3>Turismo ecológico</h3>
+										<p>Para los amantes de la naturaleza y el senderismo.</p>
+										<p><a href="t_eco.html">Más información</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 animate-box">
+								<div class="feature-left">
+									<span class="icon">
+										<img src="images/salad.png" alt="food">
+									</span>
+									<div class="feature-copy">
+										<h3>Turismo gastronómico</h3>
+										<p>Para los que disfrutan de la cocina y de los sabores del mundo.</p>
+										<p><a href="t_gastro.html">Más información</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 animate-box">
+								<div class="feature-left">
+									<span class="icon">
+										<img src="images/faraon.png" alt="history">
+									</span>
+									<div class="feature-copy">
+										<h3>Turismo histórico</h3>
+										<p>Para entusiastas de la historia y la arquitectura.</p>
+										<p><a href="t_histo.html">Más información</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 animate-box">
+								<div class="feature-left">
+									<span class="icon">
+										<img src="images/bici.png" alt="bicycle">
+									</span>
+									<div class="feature-copy">
+										<h3>Turismo de aventura</h3>
+										<p>Para los adictos a la adrenalina y los deportes extremos.</p>
+										<p><a href="t_aventura.html">Más información</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 animate-box">
+								<div class="feature-left">
+									<span class="icon">
+										<img src="images/mona.png" alt="Mona_Lisa">
+									</span>
+									<div class="feature-copy">
+										<h3>Turismo artístico</h3>
+										<p>Para los apasionados por la pintura y la escultura.</p>
+										<p><a href="t_art.html">Más información</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 animate-box">
+								<div class="feature-left">
+									<span class="icon">
+										<img src="images/meet.png" alt="business">
+									</span>
+									<div class="feature-copy">
+										<h3>Turismo de negocios</h3>
+										<p>Para los que desean ampliar su red de contactos y enlazarse con el mundo.</p>
+										<p><a href="t_business.html">Más información</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="fh5co-destination">
+					<div class="tour-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<ul id="fh5co-destination-list" class="animate-box">
+									<li class="one-forth text-center" style="background-image: url(images/place-1.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Paris</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-2.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Nueva York</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-3.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Estambul</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-4.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Bali</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-5.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Tokio</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-half text-center">
+										<div class="title-bg">
+											<div class="case-studies-summary">
+												<h2>Destinos al rededor del mundo</h2>
+												<span><a href="book_flight.html">Ver más destinos</a></span>
+											</div>
+										</div>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-6.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Roma</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-7.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Singapur</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-8.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Río de Janeiro</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-9.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>El Cairo</h2>
+											</div>
+										</a>
+									</li>
+									<li class="one-forth text-center" style="background-image: url(images/place-10.jpg); ">
+										<a>
+											<div class="case-studies-summary">
+												<h2>Buenos Aires</h2>
+											</div>
+										</a>
+									</li>
+								</ul>		
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="fh5co-blog-section" class="fh5co-section-gray">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+								<h3>Nuestros guías turísticos</h3>
+								<p>Estamos conectados con guías turísticos certificados al rededor del mundo para brindar experiencias inolvidables e enriquecedoras a nuestros viajeros.</p>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row row-bottom-padded-md">
+							<div class="col-lg-4 col-md-4 col-sm-6">
+								<div class="fh5co-blog animate-box">
+									<a href="#"><img class="img-responsive" src="images/guia-1.jpg" alt=""></a>
+									<div class="blog-text">
+										<div class="prod-title">
+											<h3><a href="#">José Zaragoza - España</a></h3>
+											<p>Guía turístico con 10 años de experiencia. Especialista en historia y arquitectura.</p>
+										</div>
+									</div> 
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-6">
+								<div class="fh5co-blog animate-box">
+									<a href="#"><img class="img-responsive" src="images/guia-2.jpg" alt=""></a>
+									<div class="blog-text">
+										<div class="prod-title">
+											<h3><a href="#">Maria da Silva - Brasil</a></h3>
+											<p>Guía turística desde el año 2016. Especialista en cocina saludable y técnicas de meditación.</p>
+										</div>
+									</div> 
+								</div>
+							</div>
+							<div class="clearfix visible-sm-block"></div>
+							<div class="col-lg-4 col-md-4 col-sm-6">
+								<div class="fh5co-blog animate-box">
+									<a href="#"><img class="img-responsive" src="images/guia-3.jpg" alt=""></a>
+									<div class="blog-text">
+										<div class="prod-title">
+											<h3><a href="#">Asa Tanaka - Japón</a></h3>
+											<p>Pintora y guía turística desde el año 2015. Especialista en pintura, escultura y arquitectura japonesa.</p>
+										</div>
+									</div> 
+								</div>
+							</div>
+							<div class="clearfix visible-md-block"></div>
+						</div>
+						<div class="col-md-12 text-center animate-box">
+							<p><a class="btn btn-primary btn-outline btn-lg" href="guides.html">Ver nuestros guías<i class="icon-arrow-right22"></i></a></p>
+						</div>
+					</div>
+				</div>
+				<!-- fh5co-blog-section -->
+
+				<div id="fh5co-testimonial" style="background-image:url(images/img_bg_1.jpg);">
+					<div class="container">
+						<div class="row animate-box">
+							<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+								<h2>Testimonios de nuestros viajeros</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="box-testimony animate-box">
+									<blockquote>
+										<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+										<p>&ldquo;Soy fotógrafa, amante de la moda y la comida. Varios amigos me habían recomendado el paquete a París para fotógrafos afisionados. El viaje fue tan enriquecedor que el año que viene voy a volver a hacer una pasantía en fotografía de moda.&rdquo;</p>
+									</blockquote>
+									<p class="author">Ana María Valencia<span class="subtext">Fotógrafa</span></p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="box-testimony animate-box">
+									<blockquote>
+										<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+										<p>&ldquo;Mi esposo y yo siempre anhelamos visitar Turquía. Gracias a Dream & Flight tuvimos la luna de miel de nuestros sueños.&rdquo;</p>
+									</blockquote>
+									<p class="author">María Cristina Pérez</p>
+								</div>		
+							</div>
+							<div class="col-md-4">
+								<div class="box-testimony animate-box">
+									<blockquote>
+										<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+										<p>&ldquo;Después de graduarme del colegio mis papás me enviaron de intercambio a Londres para aprender inglés. Fue una experiencia genial y todos en Dream & Flight estuvieron muy pendientes de mí. Muchas gracias por todo, me siento muy contento ya que ahora voy a estar más preparado para todos los desafíos que vienen en el futuro.&rdquo;</p>
+									</blockquote>
+									<p class="author">Camilo Rendón<span class="subtext">Estudiante de ingeniería</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<footer></footer>
+
+			</div>
+			<!-- END fh5co-page -->
+
+		</div>
+		<!-- END fh5co-wrapper -->
+
+		<!-- jQuery -->
+
+
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/sticky.js"></script>
+
+		<!-- Stellar -->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- Superfish -->
+		<script src="js/hoverIntent.js"></script>
+		<script src="js/superfish.js"></script>
+		<!-- Magnific Popup -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/magnific-popup-options.js"></script>
+		<!-- Date Picker -->
+		<script src="js/bootstrap-datepicker.min.js"></script>
+		<!-- CS Select -->
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+	
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+
+		<!-- Navbar -->
+		<script src="js/nav.js"></script>
+
+		<!-- Footer -->
+		<script src="js/footer.js"></script>
+
+	</body>
+</html>
+

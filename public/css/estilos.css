@@ -1,0 +1,37 @@
+.mapa {  
+  max-width: 100%;
+  height: auto;
+}
+
+.bar {
+  width: 100%;
+  overflow: auto;
+  padding-left: 10%;
+  padding-bottom: 70px;
+}
+
+.bar a {
+  float: left;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bar a:hover {
+  background: rgba(110, 81, 177, 0.5);
+  background: -moz-linear-gradient(left, rgba(110, 81, 177, 0.5) 0%, rgba(110, 81, 177, 0.5) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(110, 81, 177, 0.5)), color-stop(100%, rgba(176, 181, 252, 0.5)));
+  background: -webkit-linear-gradient(left, rgba(110, 81, 177, 0.5) 0%, rgba(110, 81, 177, 0.5) 100%);
+  background: -o-linear-gradient(left, rgba(110, 81, 177, 0.5) 0%, rgba(176, 181, 252, 0.5) 100%);
+  background: -ms-linear-gradient(left, rgba(110, 81, 177, 0.5) 0%, rgba(176, 181, 252, 0.5) 100%);
+  background: linear-gradient(to right, rgba(110, 81, 177, 0.5) 0%, rgba(176, 181, 252, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e1c', endColorstr='#ff8c00', GradientType=1 );
+}
+
+@media screen and (max-width: 500px) {
+  .bar a {
+    float: none;
+    display: block;
+  }
+}
+

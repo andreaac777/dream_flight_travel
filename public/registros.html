@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+	<link rel="icon" type="image/png" href="images/despegue.ico">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/icomoon.css">
+    <title>Registro</title>
+</head>
+<body>
+	<img src="images/loader.gif" class="loader" alt="">
+    <div class="alert-box">
+        <img src="images/error.png" class="alert-img" alt="">
+        <p class="alert-msg">Error message</p>
+    </div>
+    <div class="container">
+		<h1 id="logo"><a href="index.html"><i class="icon-airplane"></i>Dream & Flight</a></h1>
+		<div class="form">
+			<input type="text" autocomplete="off" id="name" placeholder="Username">
+			<input type="email" autocomplete="off" id="email" placeholder="Correo">
+			<input type="password" autocomplete="off" id="password" placeholder="Contraseña">
+			<input type="password" autocomplete="off" id="confirm_password" placeholder="Confirmar Contraseña">
+			<input type="checkbox" checked class="checkbox" id="terms-and-cond">
+			<label for="terms-and-cond">Aceptar <a href="">términos y condiciones</a></label>
+			<br>
+			<input type="checkbox" class="checkbox" id="notification">
+			<label for="notification">Suscribirse para recibir ofertas y novedades</a></label>
+			<button class="submit-btn">Registrar</button>
+		</div>
+		<a href="/login" class="link">¿Ya tiene una cuenta? Iniciar sesión</a>
+	</div>		  
+</body>
+<!--Query-->
+<script src="js/form.js"></script>
+<script src="js/token.js"></script>
+</html>
