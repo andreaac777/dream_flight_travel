@@ -11,7 +11,7 @@ app.use(express.static(staticPath));
 
 app.use(express.json());
 
-let serviceAccount = require("./dream-flight-c6d25-firebase-adminsdk-lt8z9-e522e9e435");
+let serviceAccount = require("path of key file");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
